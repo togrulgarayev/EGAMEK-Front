@@ -1,0 +1,97 @@
+/* Comfortaa Font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* Tsukimi Rounded Regular Font */
+@font-face {
+    font-family: 'Tsukimi Rounded Regular';
+    src: URL('/assets/fonts/tsukimi-rounded-regular.ttf') format('truetype');
+}
+
+/* Header */
+.navbar{
+    background-color: #535353;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    color: #FFF5F2;
+}
+
+.nav-logo{
+    left: 33px;
+    top: 27px;
+    color: #FFF5F2;
+    height: 57px !important;
+    width: 121px !important;
+}
+
+.navbar-nav{
+    color: #FFF5F2;
+}
+
+.nav-link{
+    color: #FFF5F2 !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-sign{
+    color: #BA91FE;
+    margin-right: 10px;
+}
+
+.nav-sign:hover{
+    color: #BA91FE;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 5px solid #680FF8;
+}
+
+/* Header End */
+
+
+/* Main */
+main{
+    height: 490px;
+}
+/* Main End */
+
+
+/* Footer */
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 1px;
+    background-color: #535353;
+}
+
+.footer-logo{
+    font-family: 'Tsukimi Rounded Regular';
+    font-size: 48px;
+    color: #BA91FE;
+}
+
+.footer-text{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.3px;
+    color: #777777;
+}
+
+.footer-social-icons{
+    display: flex;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.footer-social-links{
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+/* Footer End */
