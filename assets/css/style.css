@@ -62,6 +62,158 @@ main{
     background-color: #000000;
 }
 
+section{
+    padding-top: 65px;
+}
+
+.last-section{
+    background: #000000;
+}
+
+/* Game Search */
+
+.game-search{
+    text-align: end;
+}
+
+.game-search button{
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+.game-search button:hover{
+    background: none;
+    border: none;
+}
+.game-search button:active{
+    background: none !important;
+    border: none !important;
+}
+
+
+.game-search .search-background{
+    display: inline-flex;
+    background-color: #424242;
+    border: 2px solid #424242;
+    border-radius: 76px 0px 40px;
+    width: 266px;
+    height: 64px;
+    padding-left: 47px;
+    align-items: center;
+    color: #B0B0B0;
+}
+
+.game-search .search-background .search-text{
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    padding-left: 8px;
+}
+
+
+
+.modal-content .search-modal{
+    background-color: rgba(255,255,255,50%);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modal-content .search-modal .search-area{
+    display: inline-flex;
+    align-items: center;
+}
+.modal-content .search-modal .search-area .search-input input{
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    background-color: #B0B0B0;
+    border: 2px solid #424242;
+    border-top-left-radius: 76px;
+    border-right: none;
+}
+.modal-content .search-modal .search-area button{
+    border: 2px solid #424242;
+    background: #424242;
+    border-bottom-right-radius: 40px;
+    width: 266px;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    color: #B0B0B0;
+}
+.modal-content .search-modal .search-area button:active{
+    background: #424242 !important;
+    border: #424242 !important;
+}
+
+/* Game Search */
+
+/* Carousel Design */
+
+.owl-nav{
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    color: #FFFFFF;
+}
+
+.owl-prev{
+    position: absolute;
+    right: 65px;
+}
+
+.owl-carousel .active{
+    border-bottom: none;
+}
+
+.game-slider .slider-title{
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF;
+}
+
+.game-card .game-photo{
+    border: 2px transparent solid;
+    border-radius: 76px 76px 76px 0px;
+    max-width: 260px;
+    max-height: 300px;
+}
+.game-card .game-card-content{
+    display: inline-flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.game-card .game-card-content .game-title{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+
+}
+.game-card .game-card-content .game-fav{
+    position: absolute;
+    right: 15px;
+    color: #FFFFFF;
+}
+
+.game-card-click a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.game-card-click a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.game-card-click a:active{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* Carousel Design */
+
+
+
 
 /* About */
 #about{
