@@ -7,6 +7,8 @@
     src: URL('/assets/fonts/tsukimi-rounded-regular.ttf') format('truetype');
 }
 
+/* Roboto Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Header */
 .navbar{
     background-color: #535353;
@@ -56,8 +58,142 @@
 
 /* Main */
 main{
-    height: 490px;
+     min-height: 490px;
+    background-color: #000000;
 }
+
+
+/* About */
+#about{
+    padding-top: 5%;
+}
+#about h3{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 48px;
+    color: #BA91FE;
+    font-family: 'Tsukimi Rounded Regular';
+}
+#about p{
+    padding-left: 2%;
+    padding-top: 1%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40.76px;
+    font-family: 'Comfortaa', cursive;
+}
+#about .row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* About */
+
+
+
+/* Game details */
+#video{
+    padding-top: 5%;
+    /* min-height: 500px; */
+}
+#video .iframe{
+    width: 100%;
+    height: 450px;
+   
+}
+#video iframe{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    /* border-radius: 123px; ---------------------------------------------------------- */
+}
+
+
+.button-favorite{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.button-favorite .red-fav-btn{
+    background-color:  #FF0C0C;
+    color: white;
+    padding-top: 1%;
+    padding-left: 1%;
+    border: 2px solid #FF0C0C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 345px;
+    height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15.23px;
+    text-align: start;
+}
+.button-favorite .red-fav-btn:hover{
+    text-decoration: none;
+}
+.button-favorite .red-fav-btn svg{
+    margin-right: 20%;
+}
+
+
+
+#description{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-family: 'Comfortaa', cursive;
+    color: #FFFFFF;
+}
+#description .header{
+    color: #680FF8;
+}
+#description .header p{
+    line-height: 1px;
+    font-size: 24px;
+    font-weight: 400;
+}
+#description .text-li li{
+    list-style-type: none;
+    padding-top: 5%;
+}
+#description .text{
+    padding-top: 3%;
+    text-indent: 20px;
+}
+.rqrmts-title{
+    padding-left: 30px;
+}
+.dscrptn-horizontal-line{
+    width: 625px;
+    height: 2px;
+    /*background: #6B6B6B;*/
+    background: linear-gradient(to right,#680FF8,#6B6B6B);
+}
+.rqrmts-horizontal-line{
+    width: 432px;
+    height: 2px;
+    /*background: #6B6B6B;*/
+    background: linear-gradient(to right,#680FF8,#6B6B6B);
+    margin-left: 30px;
+}
+.requirements-list{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Game details */
+
+
+
+
+
 /* Main End */
 
 
@@ -86,6 +222,10 @@ footer{
 .footer-social-icons{
     display: flex;
     list-style: none;
+    color: #FFFFFF;
+}
+.footer-social-icons a{
+    transition: 0.3s;
     color: #FFFFFF;
 }
 
