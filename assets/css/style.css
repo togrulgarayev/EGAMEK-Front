@@ -10,6 +10,19 @@
 /* Roboto Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Header */
+
+.only-nav{
+    display: flex;
+    justify-content: center !important;
+}
+
+.only-nav .only-nav-logo{
+    color: #FFFFFF !important;
+    font-family: 'Comfortaa', cursive;
+    text-transform: none;
+    font-size: 32px;
+}
+
 .navbar{
     background-color: #535353;
     font-family: 'Comfortaa', cursive;
@@ -110,9 +123,14 @@ section{
 }
 
 
+.modal-content{
+    height: 0px;
+    width: 0px;
+    border: none !important;
+}
 
 .modal-content .search-modal{
-    background-color: rgba(255,255,255,50%);
+    background-color: transparent;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -120,6 +138,10 @@ section{
 .modal-content .search-modal .search-area{
     display: inline-flex;
     align-items: center;
+}
+.modal-content .search-modal .search-area .search-input .change-photo-input{
+    padding-left: 80px;
+    padding-top: 8px;
 }
 .modal-content .search-modal .search-area .search-input input{
     width: 350px;
@@ -240,7 +262,68 @@ section{
 }
 /* About */
 
+/* User Profile */
 
+.user-profile{
+    padding-top: 100px !important;
+}
+
+.user-profile .profile-photo img{
+    max-height: 425px;
+}
+
+.user-profile .profile-photo button{
+    background: none;
+    border: none;
+}
+
+.user-profile .profile-photo button:active{
+    background: none !important;
+    border: none !important;
+}
+
+.user-profile .user-detail .user-fullname{
+    display: inline-flex;
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 52px;
+    padding-bottom: 5px;
+}
+
+.user-profile .user-detail .user-fullname .fullname-content{
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+.user-profile .user-detail .user-fullname .fullname-change{
+    position: absolute;
+    right: 0;
+}
+
+.user-profile .user-detail .user-fullname .fullname-change .fullname-change-button{
+    background: none;
+    border: none;
+}
+
+.user-profile .user-detail .show-detail{
+    color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.user-profile .user-detail .show-detail ul{
+    list-style: none;
+    line-height: 50px;
+}
+
+.profile-edit-modal{
+    height: 300px;
+}
+
+
+
+/* User Profile */
 
 /* Game details */
 #video{

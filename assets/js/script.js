@@ -1,3 +1,4 @@
+// Game Carousel
 $(document).ready(function (){
     $('.game-carousel').owlCarousel({
         loop:true,
@@ -34,3 +35,4 @@ $(document).ready(function (){
         }
     });
 })
+// Game Carousel - End
